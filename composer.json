@@ -1,0 +1,18 @@
+{
+    "name": "luizdasilva/estruturadaspastas",
+    "description": "estrutura basica para php",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luiz"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
