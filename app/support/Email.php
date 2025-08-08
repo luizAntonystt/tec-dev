@@ -13,7 +13,7 @@ class Email
     private $mailHost = 'smtp.gmail.com';
     private $mailPort = 587;
     private $mailUsername = 'luizdev95@gmail.com';         // Seu e-mail Gmail
-    private $mailPassword = 'xfofwwiinpowyrrc';       // Sua senha de app do Gmail
+    private $mailPassword = '';       // Sua senha de app do Gmail
     private $mailEncryption = 'tls';                        // TLS é padrão para porta 587
     private $mailFromAddress = 'luizdev95@gmail.com';      // Mesmo e-mail remetente
     private $mailFromName = 'Sistema Login';                // Nome do remetente
